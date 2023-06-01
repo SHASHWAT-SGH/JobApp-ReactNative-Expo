@@ -23,7 +23,7 @@ const Welcome = () => {
   return (
     <View>
       <View styles={styles.container}>
-        <Text style={styles.userName}>Hello Shashwat And Aryan</Text>
+        <Text style={styles.userName}>Hello User</Text>
         <Text style={styles.welcomeMessage}>Find your perfect job</Text>
       </View>
 
@@ -65,6 +65,8 @@ const Welcome = () => {
           keyExtractor={item=>item}
           contentContainerStyle={{columnGap:SIZES.small}}
           horizontal
+          showsHorizontalScrollIndicator={false}
+
         />
 
       </View>
