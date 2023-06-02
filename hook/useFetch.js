@@ -6,7 +6,7 @@ const rapidApiKey = "93102ccf08mshff6e7ea0908252dp10ed1ajsnf8a799537165";
 
 const useFetch = (endPoint, query) => {
   const [data, setData] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
   const options = {
